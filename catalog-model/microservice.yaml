@@ -5,7 +5,6 @@ metadata:
   description: Monolith
   tags:
     - java
-    - data
   links:
     - url: https://example.com/user
       title: Examples Users
@@ -30,7 +29,7 @@ metadata:
       icon: alert
 spec:
   type: service
-  lifecycle: experimental
-  owner: team-a
-  system: artist-engagement-portal
+  lifecycle: production
+  owner: Team-OMS
+  system: OM
   dependsOn: ['resource:artists-db']
