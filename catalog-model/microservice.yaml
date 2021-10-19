@@ -27,6 +27,8 @@ metadata:
     - url: https://example.com/alert
       title: Alerts
       icon: alert
+  annotations:
+    qameta.io/allure-project: pizza
 spec:
   type: service
   lifecycle: production
