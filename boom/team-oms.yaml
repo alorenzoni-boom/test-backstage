@@ -5,10 +5,9 @@ metadata:
   description: Team OMS
 spec:
   type: team
-  profile:
-    # Intentional no displayName for testing
-    displayName: Team Integration
+  profile:    
+    displayName: Team OMS
     email: team-a@example.com
     picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
-  parent: backstage
+  parent: Boom
   children: []

@@ -24,4 +24,5 @@ metadata:
 spec:
   targets:
     - ./team-oms.yaml
+    - ./team-integration.yaml
     - ./developers.yaml
