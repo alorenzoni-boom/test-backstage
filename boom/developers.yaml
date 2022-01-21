@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: antonijo.lorenzoni
+spec:
+  profile:    
+    email: antonijo.lorenzoni@boom.co
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [team-oms]
