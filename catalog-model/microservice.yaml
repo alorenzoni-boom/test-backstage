@@ -29,7 +29,7 @@ metadata:
       icon: alert
   annotations:
     qameta.io/allure-project: pizza
-    boom/drone-project: backend 
+    boom/drone-project: drone-backend 
 spec:
   type: service
   lifecycle: production
