@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: spotify
-  description: The official Spotify REST API
+  name: wayback-search
+  description: Search API for the wayback machine
 spec:
   type: openapi
   lifecycle: production
-  owner: spotify
+  owner: team-a
   definition:
-    $text: https://api.apis.guru/v2/specs/spotify.com/v1/swagger.yaml
+    $text: https://github.com/APIs-guru/openapi-directory/blob/main/APIs/archive.org/search/1.0.0/openapi.yaml
