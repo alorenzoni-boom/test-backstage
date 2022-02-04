@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: team-a
   definition:
-    $text: https://staging-api.boom.co/v2/api-docs?group=internal
+    $url: https://staging-api.boom.co/v2/api-docs?group=internal
