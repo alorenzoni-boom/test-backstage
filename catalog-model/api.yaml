@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: wayback-search
+  name: backend
   description: Search API for the wayback machine
 spec:
   type: openapi
   lifecycle: production
   owner: team-a
   definition:
-    $text: https://staging-api.boom.co/v2/api-docs?group=gallery
+    $text: https://staging-api.boom.co/v2/api-docs?group=internal
