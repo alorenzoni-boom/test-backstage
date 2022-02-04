@@ -36,4 +36,4 @@ spec:
   owner: Team-OMS
   system: OM
   dependsOn: ['resource:artists-db']
-  providesApis: ['backend]
+  providesApis: ['backend']
