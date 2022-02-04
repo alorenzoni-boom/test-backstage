@@ -9,6 +9,9 @@ metadata:
     - url: http://pizza
       title: Grafana dashboard
       icon: dashboard
+    - url: http://pizza
+      title: Staging logs
+      icon: log
     - url: https://example.com/user
       title: Examples Users
       icon: user
