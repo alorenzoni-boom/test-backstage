@@ -9,3 +9,15 @@ spec:
   owner: team-a
   definition:
     $text: https://staging-api.boom.co/v2/api-docs?group=internal
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: gallery
+  description: Search API for the wayback machine
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-a
+  definition:
+    $text: https://staging-api.boom.co/v2/api-docs?group=gallery
