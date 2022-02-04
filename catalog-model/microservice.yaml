@@ -6,6 +6,9 @@ metadata:
   tags:
     - java
   links:
+    - url: http://pizza
+      title: Grafana dashboard
+      icon: dashboard
     - url: https://example.com/user
       title: Examples Users
       icon: user
