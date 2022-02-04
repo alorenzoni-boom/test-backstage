@@ -35,7 +35,7 @@ metadata:
       icon: alert
   annotations:
     qameta.io/allure-project: pizza
-    github.com/project-slug: testdue
+    github.com/project-slug: alorenzoni-boom/testdue
     boom/drone-project: testdue
 spec:
   type: service
