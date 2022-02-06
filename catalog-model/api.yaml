@@ -32,4 +32,4 @@ spec:
   lifecycle: production
   owner: team-a
   definition:
-    $text: https://ws-staging.boom.co/swagger
+    $text: https://ws-staging.boom.co/swagger-json
