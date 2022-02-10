@@ -38,6 +38,7 @@ metadata:
     github.com/project-slug: alorenzoni-boom/testdue
     github.com/manifest-file: pom.xml
     boom/drone-project: testdue
+    boom/allure-project: backend
 spec:
   type: service
   lifecycle: production
