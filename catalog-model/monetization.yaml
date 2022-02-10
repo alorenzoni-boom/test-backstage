@@ -1,36 +1,7 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@alorenzoni-boom 
-alorenzoni-boom
-/
-test-backstage
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-test-backstage/catalog-model/microservice.yaml
-@alorenzoni-boom
-alorenzoni-boom Update microservice.yaml
-Latest commit d231d9f 3 hours ago
- History
- 1 contributor
-48 lines (48 sloc)  1.15 KB
-   
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backend
+  name: monetization-service
   description: core o&m
   tags:
     - java
@@ -62,29 +33,13 @@ metadata:
     - url: https://example.com/alert
       title: Alerts
       icon: alert
-  annotations:
-    qameta.io/allure-project: pizza
-    github.com/project-slug: alorenzoni-boom/testdue
+  annotations:    
+    github.com/project-slug: boom-image-studio/monetization-service
     github.com/manifest-file: pom.xml
-    boom/drone-project: testdue
+    boom/drone-project: monetization-service
     boom/allure-project: backend
 spec:
   type: service
   lifecycle: production
   owner: Team-OMS
   system: OM
-  dependsOn: ['resource:artists-db']
-  providesApis: ['backend']
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
