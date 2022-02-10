@@ -36,7 +36,7 @@ metadata:
   annotations:
     qameta.io/allure-project: pizza
     github.com/project-slug: alorenzoni-boom/testdue
-    github.com/manifest-file: package.json
+    github.com/manifest-file: pom.xml
     boom/drone-project: testdue
 spec:
   type: service
