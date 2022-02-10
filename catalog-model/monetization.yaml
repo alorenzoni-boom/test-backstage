@@ -1,0 +1,90 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@alorenzoni-boom 
+alorenzoni-boom
+/
+test-backstage
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+test-backstage/catalog-model/microservice.yaml
+@alorenzoni-boom
+alorenzoni-boom Update microservice.yaml
+Latest commit d231d9f 3 hours ago
+ History
+ 1 contributor
+48 lines (48 sloc)  1.15 KB
+   
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backend
+  description: core o&m
+  tags:
+    - java
+  links:
+    - url: http://pizza
+      title: Grafana dashboard
+      icon: dashboard
+    - url: http://pizza
+      title: Staging logs
+      icon: log
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+    - url: https://example.com/group
+      title: Example Group
+      icon: group
+    - url: https://example.com/cloud
+      title: Link with Cloud Icon
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Dashboard
+      icon: dashboard
+    - url: https://example.com/help
+      title: Support
+      icon: help
+    - url: https://example.com/web
+      title: Website
+      icon: web
+    - url: https://example.com/alert
+      title: Alerts
+      icon: alert
+  annotations:
+    qameta.io/allure-project: pizza
+    github.com/project-slug: alorenzoni-boom/testdue
+    github.com/manifest-file: pom.xml
+    boom/drone-project: testdue
+    boom/allure-project: backend
+spec:
+  type: service
+  lifecycle: production
+  owner: Team-OMS
+  system: OM
+  dependsOn: ['resource:artists-db']
+  providesApis: ['backend']
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
