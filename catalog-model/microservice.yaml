@@ -32,14 +32,14 @@ metadata:
       icon: web
     - url: https://example.com/alert
       title: Alerts
-      icon: alert
+      icon: alert  
   annotations:
-    qameta.io/allure-project: pizza
-    github.com/project-slug: alorenzoni-boom/testdue
+    backstage.io/source-location: url:https://github.com/boom-image-studio/backend
+    github.com/project-slug: boom-image-studio/backend
     github.com/manifest-file: pom.xml
-    boom/drone-project: testdue
+    boom/drone-project: backend
     boom/allure-project: backend
-spec:
+ spec:
   type: service
   lifecycle: production
   owner: Team-OMS
