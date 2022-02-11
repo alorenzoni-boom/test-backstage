@@ -33,7 +33,8 @@ metadata:
     - url: https://example.com/alert
       title: Alerts
       icon: alert
-  annotations:    
+  annotations:
+    backstage.io/source-location: url:https://github.com/boom-image-studio/monetization-service
     github.com/project-slug: boom-image-studio/monetization-service
     github.com/manifest-file: pom.xml
     boom/drone-project: monetization-service
