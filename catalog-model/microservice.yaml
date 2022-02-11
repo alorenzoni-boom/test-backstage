@@ -39,7 +39,7 @@ metadata:
     github.com/manifest-file: pom.xml
     boom/drone-project: backend
     boom/allure-project: backend
- spec:
+spec:
   type: service
   lifecycle: production
   owner: Team-OMS
