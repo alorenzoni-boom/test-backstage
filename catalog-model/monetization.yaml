@@ -39,7 +39,7 @@ metadata:
     github.com/manifest-file: pom.xml
     boom/drone-project: monetization-service
     boom/allure-project: backend
-    backstage.io/kubernetes-id: monetization-service
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=monetization-service'
 spec:
   type: service
   lifecycle: production
