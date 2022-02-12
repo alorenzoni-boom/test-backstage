@@ -39,6 +39,7 @@ metadata:
     github.com/manifest-file: pom.xml
     boom/drone-project: monetization-service
     boom/allure-project: backend
+    backstage.io/kubernetes-id: monetization-service
 spec:
   type: service
   lifecycle: production
