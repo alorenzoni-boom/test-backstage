@@ -40,7 +40,7 @@ metadata:
     boom/drone-project: monetization-service
     boom/allure-project: backend
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=monetization-service'
-    prometheus.io/rule: jvm:total_memory_used:total|service
+    prometheus.io/rule: jvm:total_memory_used:total{service="monetization-service"}
 spec:
   type: service
   lifecycle: production
