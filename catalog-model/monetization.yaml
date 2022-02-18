@@ -37,7 +37,7 @@ metadata:
     backstage.io/source-location: url:https://github.com/boom-image-studio/monetization-service
     github.com/project-slug: boom-image-studio/monetization-service
     github.com/manifest-file: pom.xml
-    boom/drone-project: monetization-service
+    boom/drone-project: testdue
     boom/allure-project: frontend-guest
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=monetization-service'
     prometheus.io/rule: 100*jvm:total_memory_used:total{service="monetization-service"}|pod,100*jvm:cpu_usage{service="monetization-service"}|pod
