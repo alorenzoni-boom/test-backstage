@@ -40,6 +40,7 @@ metadata:
     boom/drone-project: testdue
     boom/allure-project: frontend-guest
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=monetization-service'
+    sonarqube.org/project-key: 545f09fcf9b270a655252aadd45b1753
     prometheus.io/rule: 100*jvm:total_memory_used:total{service="monetization-service"}|pod,100*jvm:cpu_usage{service="monetization-service"}|pod
 spec:
   type: service
