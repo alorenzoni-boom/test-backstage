@@ -37,7 +37,7 @@ metadata:
     backstage.io/source-location: url:https://github.com/boom-image-studio/monetization-service
     github.com/project-slug: boom-image-studio/monetization-service
     github.com/manifest-file: pom.xml
-    boom/drone-project: testdue
+    boom/drone-project: monetization-service
     boom/allure-project: frontend-guest
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=monetization-service'
     sonarqube.org/project-key: 8e4c6e457dc9e2f55438955f038fbb4c
